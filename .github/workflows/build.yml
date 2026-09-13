@@ -31,7 +31,7 @@ jobs:
         with:
           gradle-version: '8.9'
 
-            - name: Enable AndroidX
+                     - name: Enable AndroidX
         run: |
           echo "android.useAndroidX=true" >> "$PROJECT_DIR/gradle.properties"
           echo "android.enableJetifier=true" >> "$PROJECT_DIR/gradle.properties"
